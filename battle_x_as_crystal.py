@@ -151,6 +151,11 @@ def get_enemy_used_moves(input_save: BessSave) -> bytearray:
 				used_move_list[used_move_list.index(0)] = move
 	return used_move_list
 
+def initial_testing():
+	seed = str(random.randint(438215196, 696440793))
+	# it gets stuck switching if both Pokemon faint at the same time
+
+	rng = random.Random(seed)
 
 def get_battle_mons(battle_save: BessSave) -> Tuple[Tuple[int, int, int, int], Tuple[int, int, int, int]]:
 	return (
