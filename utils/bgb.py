@@ -5,7 +5,7 @@ from typing import Iterable
 from constants import file_paths as files
 from utils.movies import MovieContext
 
-USE_WINE = False
+USE_WINE = True
 
 
 def call_bgb(in_save: str,
