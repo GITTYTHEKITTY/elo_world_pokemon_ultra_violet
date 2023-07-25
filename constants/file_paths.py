@@ -28,5 +28,5 @@ OUT_DEMO = "outdemo.dem"
 # OUT_DIR = "W:/elo_world_output/crystal/"
 # SCRATCH_DIR = "R:/"
 
-OUT_DIR = "./output"
-SCRATCH_DIR = "./scratch"
+OUT_DIR = "./W/elo_world_output/ultra_violet"
+SCRATCH_DIR = "./R"
