@@ -385,7 +385,8 @@ def test_batch_battles(n=5):
 
 	for battle in batches_read.battles:
 		print_battle_log(battle)
-
+		
+run_battle_from_hashid("7p!0vm56", save_movie=False)
 
 def test_battles_with_all_trainers():
 	for trainer in raw_trainer_data[432:]:
